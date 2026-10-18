@@ -85,9 +85,9 @@ function money(value: number) {
 function MoneyIllustration() {
   return (
     <img
-      src="/money-illustration.jpg"
+      src={`${import.meta.env.BASE_URL}money-illustration.jpg`}
       alt="Green dollar sign illustration"
-      className="h-64 w-64 rounded-2xl object-contain"
+      className="h-60 w-52 object-contain"
     />
   );
 }
